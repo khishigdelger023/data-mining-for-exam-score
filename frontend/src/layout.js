@@ -18,7 +18,7 @@ const App = () => {
   const [collapsed, setCollapsed] = useState(false);
   return (
     <Layout>
-      <Sider trigger={null} collapsible collapsed={!collapsed}>
+      <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="logo" />
         <Menu
           theme="dark"

@@ -1,14 +1,12 @@
 import React from 'react';
 import axios from "axios";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.less';
 import './index.css';
 import {
   Button,
   Form,
   Radio,
   Select,
-  Layout, 
-  Menu
 } from 'antd';
 import { useState } from 'react';
 // import axios from 'axios';
